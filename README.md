@@ -1,4 +1,51 @@
-# Anybank
+<h1 align="center"> Anybank </h1>
+<h3 align="center"> Contador de finanças </h3>
+
+<p align="center">
+Projeto desenvolvido no curso Angular 19: aplicando interação entre componentes com inputs e outputs, promovido pela plataforma de ensino Alura.
+
+<p></p>
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+<p align="center">
+  <img alt="Página inicial Anybank" src="./public/preview.png">
+</p>
+
+<br>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JavaScript
+- Angular
+- Git e Github
+
+## 💻 Projeto
+
+Aplicação web desenvolvida para receber, contabilizar e exibir ações de depósito e saque, apresentando saldo e histórico de transações. Aplicado as técnicas de:
+
+</p>
+<li> Formatar dados com os Pipes do Angular, como DatePipe e CurrencyPipe. </li>
+<li> Criar formulários com vínculo bidirecional (two-way binding) na abordagem de formulários orientados a template</li>
+<li> Implementar a comunicação entre componentes com inputs e outputs</li>
+<li>Aplicar dinamismo e reatividade com signals e computed </li>
+<li> Utilizar bibliotecas externas para resolver problemas do projeto</li>
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [DESSE LINK](figma.com/design/QXDgfZPFw7eGLn9FTakzdI/Angular-19--Inputs--Outputs-e-Content-Projection-%7C-Anybank--Community-?t=bBi0eybdE9Bq3rr3-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+<p align="center">
+ Feito com ♥
+</p>
+
+## Anybank
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.9.
 

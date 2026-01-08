@@ -15,8 +15,10 @@
             <option value="" selected disabled>
               Selecione o tipo de transação
             </option>
-            <option value="deposito">Depósito</option>
-            <option value="saque">Saque</option>
+
+            @for (tipo of tipoTransacaoEnun | keyvalue; track tipo.key) {
+            <option [value]="tipo.value">{{ tipo.value }}</option>
+            }
           </select>
         </div>
       </label>

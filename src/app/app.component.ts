@@ -29,6 +29,13 @@ export class AppComponent {
   });
 
   processarTransacao(transacao: Transacao) {
+    if (
+      transacao.tipo === TipoTransacao.SAQUE &&
+      transacao.valor > this.saldo()
+    ) {
+      alert('Saldo insuficiente para realizar o saque.');
+      return;
+    }
     this.transacoes.update((listaAtual) => [transacao, ...listaAtual]);
   }
 }

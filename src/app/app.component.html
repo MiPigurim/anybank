@@ -1,10 +1,9 @@
 <div class="app">
   <div class="banner-form-wrapper">
-    <app-banner></app-banner>
+    <app-banner [saldo]="saldo()"></app-banner>
     <app-form-nova-transacao
       (transacaoCriada)="processarTransacao($event)"
     ></app-form-nova-transacao>
-    {{ saldo() }}
-    <app-extrato></app-extrato>
   </div>
+  <app-extrato [transacoes]="transacoes()" class="extrato"></app-extrato>
 </div>
